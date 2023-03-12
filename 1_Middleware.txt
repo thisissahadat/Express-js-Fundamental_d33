@@ -1,0 +1,13 @@
+Middleware is something what Execute in between Server site request and response.
+
+It can be a single line of code, it can be a class, a function even some other thing also.
+Middleware can be used in mane case lide checking request validity,authenticity,verification,Authorization e.t.c
+Middleware can be used for limiting request in server also. It can be used to prevent DOS Attack.
+
+Middleware can be developed in 2 ways.   1."Application Level Middleware" 2."Route Level Middleware"
+
+1.Application Level Middleware: If we create a class and use that class in a system where every request and response is
+                                going through that middleware, then we should call that an "Application Level Middleware".
+
+2.Route Level Middleware: If we use different middleware for different route then we
+                          should call that "Route Level Middleware".
